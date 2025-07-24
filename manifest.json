@@ -1,0 +1,46 @@
+{
+    "name": "Gyanendra Rajvaidhya - Portfolio",
+    "short_name": "Gyanendra Portfolio",
+    "description": "Business Analyst & Flutter Developer portfolio showcasing professional experience and projects",
+    "start_url": "/portfolio/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "categories": ["business", "portfolio", "professional"],
+    "lang": "en",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "assets/gyan.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/gyan.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "assets/gyan.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "platform": "wide",
+            "label": "Portfolio Homepage"
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "scope": "/portfolio/",
+    "id": "/portfolio/",
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    }
+}

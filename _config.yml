@@ -1,0 +1,89 @@
+# GitHub Pages Configuration
+title: "Gyanendra Rajvaidhya - Portfolio"
+description: "Business Analyst & Flutter Developer with expertise in product implementations, data analytics, and cross-platform development."
+author: "Gyanendra Rajvaidhya"
+email: "rajvaidhyag@gmail.com"
+url: "https://gyanraj06.github.io"
+baseurl: "/portfolio"
+
+# Social Links
+github_username: gyanraj06
+linkedin_username: gyanendrarajvaidhya
+
+# SEO Settings
+lang: en
+timezone: Asia/Kolkata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - package.json
+  - package-lock.json
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Site settings
+show_excerpts: true
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Performance
+sass:
+  style: compressed
+
+# Security
+safe: true
+lsi: false
+incremental: false
+
+# GitHub Pages safe plugins only
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
+# Custom variables
+professional:
+  name: "Gyanendra Rajvaidhya"
+  title: "Business Analyst & Flutter Developer"
+  company: "SHIPSY"
+  location: "Chennai, Tamil Nadu, India"
+  education: "B.Tech Computer Science, SRM IST"
+  cgpa: "9.17/10.00"
